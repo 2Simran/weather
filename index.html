@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Weather App</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Weather
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Pune</a></li>
+              <li><a class="dropdown-item" href="#">Ranchi</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Banglore</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Usage Guide</a>
+          </li>
+        </ul>
+        <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+      </div>
+    </div>
+  </nav>
+  <div id="weather-icon">
+    <main>
+
+      <div class="row" style="text-align: center;">
+        <form action="">
+          <input type="search" id="search" placeholder="Search by city name">
+        </form>
+      </div>
+
+      <div class="row" id="weather">
+        <!-- <div class="col">
+         <img src="https://openweathermap.org/img/wn/04n@2x.png" alt="">
+        </div>
+        <div>
+          <h2>32 ℃</h2>
+          <h4> Clear </h4>
+        </div>  -->
+      </div>
+
+
+    </main>
+  </div>
+    <!----------------- About Section Starts -------------------------------------->
+    <section>
+      <div class="about">
+        <h1>Weather App</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi praesentium, sequi earum optio, repellendus soluta necessitatibus repellat tenetur possimus corporis perferendis quas sunt facilis blanditiis eveniet facere odit architecto commodi dolore, velit minus molestias ducimus?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi praesentium, sequi earum optio, repellendus soluta necessitatibus repellat tenetur possimus corporis perferendis quas sunt facilis blanditiis eveniet facere odit architecto commodi dolore, velit minus molestias ducimus?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi praesentium, sequi earum optio, repellendus soluta necessitatibus repellat tenetur possimus corporis perferendis quas sunt facilis blanditiis eveniet facere odit architecto commodi dolore, velit minus molestias ducimus?</p>
+
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
