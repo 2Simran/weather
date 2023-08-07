@@ -67,17 +67,19 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     justify-content: center;
     text-decoration:underline;
     margin-bottom: 3%;
+    letter-spacing:2px;
+    word-spacing:3px;
 }
 #about p{
 padding:10px;
-letter-spacing:2px;
-word-spacing:3px;
+letter-spacing:1px;
 }
 
 footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color:white;
 }
 footer a{
     margin-bottom: 3px;
