@@ -54,16 +54,15 @@ backdrop-filter: blur(5.1px);
 border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.aboutSec{
-    marging-bottom: 50%;
-    width: 100%;
+#about{
+    font-size: 1em;
     background-color: black;
-    height: 60%;
+    height: auto;
     color:rgb(252, 251, 253)
 }
 
 #about h1{
-    font-size: 1em;
+    font-size: 2em;
     font-weight: 500;
     display: flex;
     align-items: center;
@@ -92,7 +91,7 @@ footer a{
         font-size: 30px;
         width:100%;
         background-color:rgb(224, 224, 233);
-        padding-left: 30%;
+        padding-left: 10%;
     }
 }
 
