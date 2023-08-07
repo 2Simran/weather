@@ -53,15 +53,16 @@ backdrop-filter: blur(5.1px);
 border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-
-#about{
+.aboutSec{
     marging-bottom: 50%;
+    width: 100%;
     background-color: black;
     height: 30vh;
-    font-size: 1em;
     color:rgb(252, 251, 253)
 }
+
 #about h1{
+    font-size: 1em;
     font-weight: 500;
     display: flex;
     align-items: center;
