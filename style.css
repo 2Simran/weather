@@ -71,16 +71,14 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     word-spacing:3px;
 }
 #about p{
-padding:10px;
-letter-spacing:1px;
+    padding:0 30px;
 }
-
 footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:white;
+    font-size:small;
 }
 footer a{
-    margin-bottom: 3px;
+    margin-bottom:18px;
 }
