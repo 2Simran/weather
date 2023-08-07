@@ -78,6 +78,7 @@ footer{
     align-items: center;
     justify-content: center;
     font-size:small;
+    background-color: white;
 }
 footer a{
     margin-bottom:18px;
