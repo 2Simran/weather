@@ -11,6 +11,7 @@ body{
     background-repeat: no-repeat;
     background-origin: border-box;
     background-size: auto;
+    background-color: black;
 }
 
 main {
@@ -57,7 +58,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     marging-bottom: 50%;
     width: 100%;
     background-color: black;
-    height: 30vh;
+    height: 30%;
     color:rgb(252, 251, 253)
 }
 
