@@ -5,8 +5,8 @@
     box-sizing: border-box;
 }
 body{
-/*     width: 100%;
-    height: 100%; */
+    width: 100%;
+    height: 100%;
     background-image: url(image/default.jpg);
     background-repeat: no-repeat;
     background-origin: border-box;
