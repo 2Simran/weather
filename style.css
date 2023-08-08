@@ -85,7 +85,7 @@ footer a{
     margin-bottom:18px;
 }
 
-@media (max-width: 1280px){
+@media (max-width: 1024px){
     #search{
         font-size: 30px;
         width:100%;
@@ -94,23 +94,23 @@ footer a{
     }
 }
 
-@media (max-width: 1280px){
+@media (max-width: 1024px){
     .row{
      display: flex;
     align-items: center;
     /* vertically */
     justify-content: center;
     /* horizontally */
-    width: 100%;
+    width: 50%;
     margin: 10px;
     font-size: 1em;
     font-weight: 300;
     color: rgb(249, 246, 246); 
     }
 }
-@media (max-width:1280px){
+@media (max-width:1024px){
   #about{
-        margin-top: -80%;
+        margin-top: -30%;
         height: 100%;
 
     }
