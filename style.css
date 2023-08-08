@@ -66,10 +66,10 @@ border: 1px solid rgba(255, 255, 255, 0.3);
     display: flex;
     align-items: center;
     justify-content: center;
-    text-decoration:underline;
+    text-decoration: underline;
     margin-bottom: 3%;
-    letter-spacing:2px;
-    word-spacing:3px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
 }
 #about p{
     padding:0 30px;
@@ -107,7 +107,13 @@ footer a{
     font-weight: 300;
     color: rgb(249, 246, 246); 
     }
+    #about{
+        background-color: blue;
+        height: 100%;
+
+    }
 }
+
 
 @media (max-width: 500px){
     #search{
