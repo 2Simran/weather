@@ -85,7 +85,7 @@ footer a{
     margin-bottom:18px;
 }
 
-@media (max-width: 700px){
+@media (max-width: 800px){
     #search{
         font-size: 30px;
         width:100%;
@@ -94,7 +94,7 @@ footer a{
     }
 }
 
-@media (max-width: 700px){
+@media (max-width: 800px){
     .row{
      display: flex;
     align-items: center;
