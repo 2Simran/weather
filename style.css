@@ -85,7 +85,7 @@ footer a{
     margin-bottom:18px;
 }
 
-@media (max-width: 800px){
+@media (max-width: 1280px){
     #search{
         font-size: 30px;
         width:100%;
@@ -107,9 +107,11 @@ footer a{
     font-weight: 300;
     color: rgb(249, 246, 246); 
     }
-    #about{
-        background-color: blue;
-        height: 100%;
+}
+@media (max-width:1280px){
+  #about{
+        background-color: brown;
+        height: 70vh;
 
     }
 }
