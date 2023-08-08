@@ -108,3 +108,27 @@ footer a{
     color: rgb(249, 246, 246); 
     }
 }
+
+@media (max-width: 500px){
+    #search{
+        font-size: 30px;
+        width:100%;
+        background-color:rgb(224, 224, 233);
+        padding-left: 10%;
+    }
+}
+
+@media (max-width: 500px){
+    .row{
+     display: flex;
+    align-items: center;
+    /* vertically */
+    justify-content: center;
+    /* horizontally */
+    width: 100%;
+    margin: 10px;
+    font-size: 1em;
+    font-weight: 300;
+    color: rgb(249, 246, 246); 
+    }
+}
