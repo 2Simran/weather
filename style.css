@@ -110,8 +110,8 @@ footer a{
 }
 @media (max-width:1280px){
   #about{
-        background-color: brown;
-        height: 70vh;
+        margin-top: -80%;
+        height: 100%;
 
     }
 }
