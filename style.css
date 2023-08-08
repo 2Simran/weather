@@ -94,7 +94,7 @@ footer a{
     }
 }
 
-@media (max-width: 800px){
+@media (max-width: 1280px){
     .row{
      display: flex;
     align-items: center;
