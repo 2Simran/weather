@@ -85,7 +85,7 @@ footer a{
     margin-bottom:18px;
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1200px){
     #search{
         font-size: 30px;
         width:50%;
@@ -94,7 +94,7 @@ footer a{
     }
 }
 
-@media (max-width: 1024px){
+@media (max-width: 1200px){
     .row{
      display: flex;
     align-items: center;
@@ -128,7 +128,7 @@ body{
 }
 
 }
-@media (max-width:1024px){
+@media (max-width:1200px){
   #about{
       
        height: auto;
